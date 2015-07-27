@@ -1,0 +1,44 @@
+
+.react-origami-lightbox {}
+
+.react-origami-lightbox .lightbox-backdrop {
+    position: fixed;
+    background-color: hsla(312, 26%, 25%, 0.67);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.react-origami-lightbox .lightbox-content {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 10%;
+    top: 0;
+    background-color: white;
+    padding: 20px;
+}
+
+.react-origami-lightbox .lightbox-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    fill: hsl(0, 100%, 79%);
+    cursor: pointer;
+}
+
+.lightbox-enter {
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+.lightbox-enter-active {
+    opacity: 1;
+}
+.lightbox-leave {
+    transition: opacity 300ms ease;
+    opacity: 1;
+}
+.lightbox-leave-active {
+    opacity: 0;
+}

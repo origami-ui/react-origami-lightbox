@@ -1,0 +1,8 @@
+
+@import url(lightbox.css);
+
+body {}
+
+body * {
+  box-sizing: border-box;
+}
